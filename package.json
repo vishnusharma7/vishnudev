@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "typecheck": "tsc -b",
-    "build": "node ./node_modules/vite/bin/vite.js",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "typecheck": "tsc -b",
+  "build": "node ./node_modules/vite/bin/vite.js build",
+  "preview": "vite preview"
+},
   "dependencies": {
     "framer-motion": "^11.18.2",
     "lucide-react": "^0.468.0",
